@@ -8,7 +8,9 @@ Instead of just writing a report, I wanted something I could click through durin
 
 > **Heads up — it's a teaching demo, not a trained model.** The console traces (similarity scores, the user × item matrix, the predictions) are *scripted* to illustrate how each algorithm reasons. There is no ML model running and no real user data. The whole thing is one self-contained HTML file with vanilla JavaScript. The Python-style console is for show — it makes the logic readable, the way a textbook diagram would. ([more detail here](docs/console-explained.md))
 
-<!-- SCREENSHOT -->
+![The demo in its default cold-start state: on the left, the LUNA COLLECTIVE storefront greets a brand-new visitor with site-wide bestsellers; on the right, the backend console traces why — collaborative and content-based filtering are skipped, so it falls back to popularity.](assets/demo.png)
+
+<p align="center"><em>Left: the storefront re-ranks itself live. Right: the console explains every decision. Click the three buttons to switch algorithms.</em></p>
 
 ---
 
