@@ -1,0 +1,17 @@
+{
+  "name": "recommendation-systems-ecommerce",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive teaching demo of e-commerce recommendation algorithms (cold start, content-based, collaborative filtering).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "vite": "^7.0.0"
+  }
+}

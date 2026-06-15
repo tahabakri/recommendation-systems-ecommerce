@@ -1,0 +1,24 @@
+// Tiny inline SVG icon set (no emoji, no icon-font dependency).
+// Small icons (~13–15px) are used in chips/badges; the larger 34px set
+// are graceful fallbacks shown when a product photo fails to load.
+export const ICON = {
+  snow:   '<svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v20M2 12h20M5 5l14 14M19 5L5 19"/></svg>',
+  layers: '<svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg>',
+  tag:    '<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M20 12l-8 8-9-9V3h8z"/><circle cx="7.5" cy="7.5" r="1.4" fill="currentColor"/></svg>',
+  users:  '<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0112 0"/><path d="M16 5.5a3 3 0 010 5.5M21 20a6 6 0 00-4-5.6"/></svg>',
+  flame:  '<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2c1 3-2 4-2 7a2 2 0 104 0c0 4 3 4 3 8a5 5 0 11-10 0c0-3 2-4 2-7"/></svg>',
+  sparkle:'<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg>',
+  book:   '<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><path d="M4 5a2 2 0 012-2h13v17H6a2 2 0 00-2 2z"/><path d="M19 3v17"/></svg>',
+  box:    '<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 7v10l9 4 9-4V7"/><path d="M12 11v10"/></svg>',
+  headphones:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><path d="M4 14v-3a8 8 0 0116 0v3"/><rect x="2.5" y="13.5" width="4.2" height="6.5" rx="1.4"/><rect x="17.3" y="13.5" width="4.2" height="6.5" rx="1.4"/></svg>',
+  laptop:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19.5h20"/></svg>',
+  watch:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><rect x="7.5" y="7.5" width="9" height="9" rx="2.2"/><path d="M9 7.5L9.5 4h5l.5 3.5M9 16.5l.5 3.5h5l.5-3.5"/></svg>',
+  earbuds:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><path d="M7 4a3.5 3.5 0 00-3.5 3.5V12a2.75 2.75 0 005.5 0V8.5"/><path d="M17 4a3.5 3.5 0 013.5 3.5V12a2.75 2.75 0 01-5.5 0V8.5"/></svg>',
+  keyboard:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><rect x="2.5" y="7" width="19" height="10" rx="2"/><path d="M6 10.5h.01M10 10.5h.01M14 10.5h.01M18 10.5h.01M8 13.5h8"/></svg>',
+  camera:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><rect x="3" y="7.5" width="18" height="11.5" rx="2"/><circle cx="12" cy="13.2" r="3.2"/><path d="M8.5 7.5L10 5h4l1.5 2.5"/></svg>',
+  shoe:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><path d="M2.5 15.5l.7-5 3.3 1 2.5 2 6 1.5c2 .5 3.5 1 4.5 2v1.5H2.5z"/><path d="M3.2 10.5l2.6 1.5"/></svg>',
+  glasses:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><circle cx="6.5" cy="14" r="3.2"/><circle cx="17.5" cy="14" r="3.2"/><path d="M9.6 13.2h4.8M3.3 11l2-1.8M20.7 11l-2-1.8"/></svg>',
+  bag:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><path d="M6 8.5h12l-1 11H7z"/><path d="M9 8.5a3 3 0 016 0"/></svg>',
+  bottle:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><rect x="8" y="9" width="8" height="11" rx="2"/><path d="M10 9V6h4v3M10.5 4.5h3"/></svg>',
+  mug:'<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.9"><path d="M5 8h11v7a4 4 0 01-4 4H9a4 4 0 01-4-4z"/><path d="M16 10.5h2a2 2 0 010 4h-2"/></svg>',
+};
