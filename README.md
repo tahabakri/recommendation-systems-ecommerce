@@ -4,7 +4,7 @@ A small interactive website I built to *show* how e-commerce recommendation algo
 
 Instead of just writing a report, I wanted something I could click through during my presentation. So I built a fake online store called **LUNA COLLECTIVE** on the left, and a "backend console" on the right that walks through what the recommendation engine is thinking for three different situations: a brand-new user (cold start), content-based filtering, and collaborative filtering.
 
-🔗 **Live demo:** https://tahabakri.github.io/recommendation-systems-ecommerce/
+**Live demo → https://tahabakri.github.io/recommendation-systems-ecommerce/**
 
 > **Heads up — it's a teaching demo, not a trained model.** The console traces (similarity scores, the user × item matrix, the predictions) are *scripted* to illustrate how each algorithm reasons. There is no ML model running and no real user data. The whole thing is one self-contained HTML file with vanilla JavaScript. The Python-style console is for show — it makes the logic readable, the way a textbook diagram would. ([more detail here](docs/console-explained.md))
 
