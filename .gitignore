@@ -1,0 +1,16 @@
+# Claude Code / tooling
+.claude/
+
+# Raw scratch sources (superseded by docs/report.md and docs/presentation.pptx)
+taha.txt
+main.txt
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
